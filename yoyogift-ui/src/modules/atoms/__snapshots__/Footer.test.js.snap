@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render Footer 1`] = `
+<div
+  className="Footer-root-1"
+>
+  <header
+    className="MuiPaper-root-11 MuiPaper-elevation4-17 MuiAppBar-root-2 MuiAppBar-positionStatic-6 MuiAppBar-colorDefault-8"
+  >
+    <div
+      className="MuiToolbar-root-38 MuiToolbar-regular-40 MuiToolbar-gutters-39"
+    >
+      <p
+        style={
+          Object {
+            "float": "right",
+          }
+        }
+      >
+        ©2019 YoYo, Inc. All Rights Reserved.
+      </p>
+    </div>
+  </header>
+</div>
+`;

@@ -1,0 +1,117 @@
+import React from "react";
+import PropTypes from "prop-types";
+import { withStyles } from "@material-ui/core/styles";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableFooter from "@material-ui/core/TableFooter";
+import TablePagination from "@material-ui/core/TablePagination";
+import TableRow from "@material-ui/core/TableRow";
+import Paper from "@material-ui/core/Paper";
+import Grid from "@material-ui/core/Grid";
+import GiftCard from "./GiftCard";
+import { TablePaginationActionsWrapped } from "./TablePaginationActionsWrapped";
+
+const styles = (theme) => ({
+  root: {
+    width: "90%",
+    margin: "2%",
+    padding: "1%",
+  },
+  table: {
+    minWidth: 100,
+  },
+  tableWrapper: {
+    overflow: "hidden",
+  },
+});
+
+export class GiftsList extends React.Component {
+  state = {
+    giftCardsFiltered: this.props.giftCardsFiltered,
+    page: 0,
+    rowsPerPage: 10,
+  };
+
+  handleChangePage = (event, page) => {
+    this.setState({ page });
+  };
+
+  handleChangeRowsPerPage = (event) => {
+    this.setState({ page: 0, rowsPerPage: event.target.value });
+  };
+
+  render() {
+    let { classes, giftCardsFiltered, userDetails } = this.props;
+    const { rowsPerPage, page } = this.state;
+    const emptyRows =
+      rowsPerPage -
+      Math.min(rowsPerPage, giftCardsFiltered.length - page * rowsPerPage);
+    return (
+      <Paper className={classes.root}>
+        <div className={classes.tableWrapper}>
+          <Table className={classes.table}>
+            <TableBody>
+              <TableRow>
+                <TableCell>
+                  <Grid container spacing={16}>
+                    {giftCardsFiltered
+                      .slice(
+                        page * rowsPerPage,
+                        page * rowsPerPage + rowsPerPage
+                      )
+                      .map((giftCard) => {
+                        return (
+                          <Grid
+                            item
+                            xs={12}
+                            sm={6}
+                            md={3}
+                            lg={3}
+                            key={giftCard.id}
+                          >
+                            <GiftCard
+                              giftCard={giftCard}
+                              isAdmin={userDetails.isAdmin}
+                            />
+                          </Grid>
+                        );
+                      })}
+                  </Grid>
+                </TableCell>
+              </TableRow>
+              {emptyRows > 0 && (
+                <TableRow style={{ height: 48 * emptyRows }}>
+                  <TableCell colSpan={6} />
+                </TableRow>
+              )}
+            </TableBody>
+            <TableFooter>
+              <TableRow>
+                <TablePagination
+                  rowsPerPageOptions={[10, 20]}
+                  colSpan={3}
+                  count={giftCardsFiltered.length}
+                  rowsPerPage={rowsPerPage}
+                  page={page}
+                  SelectProps={{
+                    native: true,
+                  }}
+                  onChangePage={this.handleChangePage}
+                  onChangeRowsPerPage={this.handleChangeRowsPerPage}
+                  ActionsComponent={TablePaginationActionsWrapped}
+                />
+              </TableRow>
+            </TableFooter>
+          </Table>
+        </div>
+      </Paper>
+    );
+  }
+}
+
+GiftsList.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(GiftsList);

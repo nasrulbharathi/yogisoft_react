@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePickers  should be rendered 1`] = `ShallowWrapper {}`;
+
+exports[`should render DatePickers  should be defined 1`] = `ShallowWrapper {}`;
+
+exports[`should render DatePickers 1`] = `ShallowWrapper {}`;

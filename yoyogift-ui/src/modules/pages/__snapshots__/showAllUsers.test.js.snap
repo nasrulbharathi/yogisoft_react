@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ShowAllUsers 1`] = `ShallowWrapper {}`;
+
+exports[`should render ShowAllUsers should be rendered 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift Show should render Gift Card 1`] = `
+<div
+  id="testID"
+  style={
+    Object {
+      "padding": "4%",
+    }
+  }
+>
+  <div
+    className="detailsPage"
+  >
+    <div
+      className="MuiGrid-container-1"
+    >
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-5-48 cardContainer"
+      >
+        <div>
+          <div
+            className="MuiGrid-container-1"
+          >
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-6-35 MuiGrid-grid-sm-6-49"
+            >
+              <img
+                alt="vendorImage"
+                className="vendorImage"
+                src="https://pngimg.com/uploads/amazon/amazon_PNG21.png"
+              />
+            </div>
+            <div
+              className="MuiGrid-item-2 MuiGrid-grid-xs-6-35 MuiGrid-grid-sm-6-49"
+            >
+              <p
+                className="cardName"
+              >
+                Amazon Gift 
+              </p>
+              <span
+                style={
+                  Object {
+                    "marginLeft": "30%",
+                  }
+                }
+              >
+                <label
+                  className="label"
+                >
+                  Points:
+                </label>
+                1200
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button
+            className="MuiButtonBase-root-124 MuiButton-root-98 MuiButton-contained-109 MuiButton-containedPrimary-110 MuiButton-raised-112 MuiButton-raisedPrimary-113"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-99"
+            >
+              send this gift card
+            </span>
+            <span
+              className="MuiTouchRipple-root-143"
+            />
+          </button>
+        </div>
+        <p>
+          <label
+            className="label"
+          >
+            NUMBER OF CARDS AVAILABLE:
+             
+          </label>
+          95
+        </p>
+        <p>
+          <label
+            className="label"
+          >
+            EXPIRY DATE: 
+          </label>
+          2019-06-29
+        </p>
+        <div>
+          <p
+            className="label"
+          >
+             RATING & REVIEWS:
+          </p>
+          <div
+            className="commentsSection"
+          >
+            <p
+              className="commentorName"
+            >
+               
+              Sebastian
+               
+              Eschweiler
+              <span
+                className="commentDate"
+              >
+                2019-05-19
+              </span>
+            </p>
+            <p
+              className="comment"
+            >
+              Great gift card. Happy to gift!
+            </p>
+            <div
+              className="dv-star-rating dv-star-rating-non-editable"
+              style={
+                Object {
+                  "display": "inline-block",
+                  "position": "relative",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="dv-star-rating-input"
+                id="rating_5"
+                name="rating"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                    "marginLeft": -9999,
+                    "position": "absolute",
+                  }
+                }
+                type="radio"
+                value={5}
+              />
+              <label
+                className="dv-star-rating-star dv-star-rating-empty-star"
+                htmlFor="rating_5"
+                onClick={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                style={
+                  Object {
+                    "color": "#333",
+                    "cursor": "default",
+                    "float": "right",
+                  }
+                }
+              >
+                <i
+                  style={
+                    Object {
+                      "fontStyle": "normal",
+                    }
+                  }
+                >
+                  ★
+                </i>
+              </label>
+              <input
+                checked={true}
+                className="dv-star-rating-input"
+                id="rating_4"
+                name="rating"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                    "marginLeft": -9999,
+                    "position": "absolute",
+                  }
+                }
+                type="radio"
+                value={4}
+              />
+              <label
+                className="dv-star-rating-star dv-star-rating-full-star"
+                htmlFor="rating_4"
+                onClick={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                style={
+                  Object {
+                    "color": "#ffb400",
+                    "cursor": "default",
+                    "float": "right",
+                  }
+                }
+              >
+                <i
+                  style={
+                    Object {
+                      "fontStyle": "normal",
+                    }
+                  }
+                >
+                  ★
+                </i>
+              </label>
+              <input
+                checked={false}
+                className="dv-star-rating-input"
+                id="rating_3"
+                name="rating"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                    "marginLeft": -9999,
+                    "position": "absolute",
+                  }
+                }
+                type="radio"
+                value={3}
+              />
+              <label
+                className="dv-star-rating-star dv-star-rating-full-star"
+                htmlFor="rating_3"
+                onClick={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                style={
+                  Object {
+                    "color": "#ffb400",
+                    "cursor": "default",
+                    "float": "right",
+                  }
+                }
+              >
+                <i
+                  style={
+                    Object {
+                      "fontStyle": "normal",
+                    }
+                  }
+                >
+                  ★
+                </i>
+              </label>
+              <input
+                checked={false}
+                className="dv-star-rating-input"
+                id="rating_2"
+                name="rating"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                    "marginLeft": -9999,
+                    "position": "absolute",
+                  }
+                }
+                type="radio"
+                value={2}
+              />
+              <label
+                className="dv-star-rating-star dv-star-rating-full-star"
+                htmlFor="rating_2"
+                onClick={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                style={
+                  Object {
+                    "color": "#ffb400",
+                    "cursor": "default",
+                    "float": "right",
+                  }
+                }
+              >
+                <i
+                  style={
+                    Object {
+                      "fontStyle": "normal",
+                    }
+                  }
+                >
+                  ★
+                </i>
+              </label>
+              <input
+                checked={false}
+                className="dv-star-rating-input"
+                id="rating_1"
+                name="rating"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                    "marginLeft": -9999,
+                    "position": "absolute",
+                  }
+                }
+                type="radio"
+                value={1}
+              />
+              <label
+                className="dv-star-rating-star dv-star-rating-full-star"
+                htmlFor="rating_1"
+                onClick={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                style={
+                  Object {
+                    "color": "#ffb400",
+                    "cursor": "default",
+                    "float": "right",
+                  }
+                }
+              >
+                <i
+                  style={
+                    Object {
+                      "fontStyle": "normal",
+                    }
+                  }
+                >
+                  ★
+                </i>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49 detailsContainer"
+      >
+        <p
+          className="vendorName"
+        >
+          amazon
+        </p>
+        <p
+          className="cardDescription"
+        >
+          Amazon Gift Cards are the Perfect Gift, Every Time. Use the eBay Gift Card to shop from millions of items in Electronics, Toys, Motors, Fashion, Home & Garden, Art, Collectibles, Sporting Goods and everything in-between. eBay Gift Cards never expire and have no fees. Use it to shop now or wait for the deal of a lifetime.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

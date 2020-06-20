@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift Card should render shallow Gift Card 1`] = `ShallowWrapper {}`;

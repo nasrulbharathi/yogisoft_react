@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Page should render ErrorPage 1`] = `ShallowWrapper {}`;
