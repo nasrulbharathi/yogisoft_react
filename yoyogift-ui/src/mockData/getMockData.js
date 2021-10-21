@@ -17,7 +17,7 @@ export const getGiftCardData = {
       id: 1,
       first_name: "Sebastian",
       last_name: "Eschweiler",
-      email: "sebastian@mindtree.com",
+      email: "sebastian@gmail.com",
       rating: 4,
       comment: "Great gift card. Happy to gift!",
       commented_on: "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)",
