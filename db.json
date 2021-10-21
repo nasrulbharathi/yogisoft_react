@@ -4,7 +4,7 @@
       "id": 1,
       "first_name": "Sebastian",
       "last_name": "Eschweiler",
-      "email": "sebastian@mindtree.com",
+      "email": "sebastian@gmail.com",
       "balance_points": 9229,
       "isAdmin": true,
       "password": "Batman@8"
@@ -53,7 +53,7 @@
           "id": 1,
           "first_name": "Sebastian",
           "last_name": "Eschweiler",
-          "email": "sebastian@mindtree.com",
+          "email": "sebastian@gmail.com",
           "rating": 4,
           "comment": "Great gift card. Happy to gift!",
           "commented_on": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -62,7 +62,7 @@
           "id": 2,
           "first_name": "Bill",
           "last_name": "Joe",
-          "email": "billjoe@mindtree.com",
+          "email": "billjoe@gmail.com",
           "rating": 3,
           "comment": "10% discount on Amazon. Yay",
           "commented_on": "Sun Jun 12 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -71,7 +71,7 @@
           "id": 3,
           "first_name": "Murphy",
           "last_name": "Dil",
-          "email": "murphydil@mindtree.com",
+          "email": "murphydil@gmail.com",
           "rating": 3,
           "comment": "Woah! Instant discount.",
           "commented_on": "Sun Apr 20 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -121,7 +121,7 @@
           "id": 1,
           "first_name": "Sebastian",
           "last_name": "Eschweiler",
-          "email": "sebastian@mindtree.com",
+          "email": "sebastian@gmail.com",
           "rating": 4,
           "comment": "Great gift card. Happy to gift!",
           "commented_on": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -146,7 +146,7 @@
           "id": 1,
           "first_name": "Sebastian",
           "last_name": "Eschweiler",
-          "email": "sebastian@mindtree.com",
+          "email": "sebastian@gmail.com",
           "rating": 4,
           "comment": "Great gift card. Happy to gift!",
           "commented_on": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -155,7 +155,7 @@
           "id": 3,
           "first_name": "Murphy",
           "last_name": "Dil",
-          "email": "murphydil@mindtree.com",
+          "email": "murphydil@gmail.com",
           "rating": 3,
           "comment": "Woah! Instant discount.",
           "commented_on": "Sun Apr 20 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -230,7 +230,7 @@
           "id": 1,
           "first_name": "Sebastian",
           "last_name": "Eschweiler",
-          "email": "sebastian@mindtree.com",
+          "email": "sebastian@gmail.com",
           "rating": 4,
           "comment": "Great gift card. Happy to gift!",
           "commented_on": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -305,7 +305,7 @@
           "id": 1,
           "first_name": "Sebastian",
           "last_name": "Eschweiler",
-          "email": "sebastian@mindtree.com",
+          "email": "sebastian@gmail.com",
           "rating": 4,
           "comment": "Great gift card. Happy to gift!",
           "commented_on": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -380,7 +380,7 @@
           "id": 1,
           "first_name": "Sebastian",
           "last_name": "Eschweiler",
-          "email": "sebastian@mindtree.com",
+          "email": "sebastian@gmail.com",
           "rating": 4,
           "comment": "Great gift card. Happy to gift!",
           "commented_on": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -455,7 +455,7 @@
           "id": 1,
           "first_name": "Sebastian",
           "last_name": "Eschweiler",
-          "email": "sebastian@mindtree.com",
+          "email": "sebastian@gmail.com",
           "rating": 4,
           "comment": "Great gift card. Happy to gift!",
           "commented_on": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -595,7 +595,7 @@
           "id": 1,
           "first_name": "Sebastian",
           "last_name": "Eschweiler",
-          "email": "sebastian@mindtree.com",
+          "email": "sebastian@gmail.com",
           "rating": 4,
           "comment": "Great gift card. Happy to gift!",
           "commented_on": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -620,7 +620,7 @@
           "id": 1,
           "first_name": "Sebastian",
           "last_name": "Eschweiler",
-          "email": "sebastian@mindtree.com",
+          "email": "sebastian@gmail.com",
           "rating": 4,
           "comment": "Great gift card. Happy to gift!",
           "commented_on": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)"
@@ -810,7 +810,7 @@
     },
     {
       "id": 70,
-      "senderEmail": "sebastian@mindtree.com",
+      "senderEmail": "sebastian@gmail.com",
       "receiverEmail": "johndoe@gmail.com",
       "cardName": "Food Card",
       "cardPoints": 123,
@@ -834,7 +834,7 @@
     },
     {
       "id": 28,
-      "senderEmail": "sebastian@mindtree.com",
+      "senderEmail": "sebastian@gmail.com",
       "receiverEmail": "nasrulbharathi@gmail.com",
       "cardName": "Food Panda",
       "cardPoints": "201",
@@ -847,7 +847,7 @@
     {
       "id": 93,
       "senderEmail": "johndoe@gmail.com",
-      "receiverEmail": "sebastian@mindtree.com",
+      "receiverEmail": "sebastian@gmail.com",
       "cardName": "Food Panda",
       "cardPoints": "201",
       "cardShortDesc": "10% OFF",
@@ -858,8 +858,8 @@
     },
     {
       "id": 23,
-      "senderEmail": "sebastian@mindtree.com",
-      "receiverEmail": "sebastian@mindtree.com",
+      "senderEmail": "sebastian@gmail.com",
+      "receiverEmail": "sebastian@gmail.com",
       "cardName": "sadad",
       "cardPoints": "123",
       "cardShortDesc": "sadas",
@@ -873,7 +873,7 @@
     },
     {
       "id": 96,
-      "senderEmail": "sebastian@mindtree.com",
+      "senderEmail": "sebastian@gmail.com",
       "receiverEmail": "nasrulbharathi@gmail.com",
       "cardId": 4,
       "cardName": "Ebay Card",
@@ -882,84 +882,6 @@
       "cardImage": "https://images.gyft.com/merchants/i-188-1346844971201-60_hd.png",
       "cardIssueDate": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)",
       "cardExpiryDate": "Sun May 26 2019 15:43:25 GMT+0530 (India Standard Time)",
-      "isRedeemed": false
-    },
-    {
-      "id": 17,
-      "senderEmail": "sebastian@mindtree.com",
-      "receiverEmail": "nasrulbharathi@gmail.com",
-      "cardId": 4,
-      "cardName": "Ebay Card",
-      "cardPoints": 123,
-      "cardShortDesc": "50% OFF",
-      "cardImage": "https://images.gyft.com/merchants/i-188-1346844971201-60_hd.png",
-      "cardIssueDate": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)",
-      "cardExpiryDate": "Sun May 26 2019 15:43:25 GMT+0530 (India Standard Time)",
-      "isRedeemed": false
-    },
-    {
-      "id": 75,
-      "senderEmail": "sebastian@mindtree.com",
-      "receiverEmail": "nasrulbharathi@gmail.com",
-      "cardId": 4,
-      "cardName": "Ebay Card",
-      "cardPoints": 123,
-      "cardShortDesc": "50% OFF",
-      "cardImage": "https://images.gyft.com/merchants/i-188-1346844971201-60_hd.png",
-      "cardIssueDate": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)",
-      "cardExpiryDate": "Sun May 26 2019 15:43:25 GMT+0530 (India Standard Time)",
-      "isRedeemed": false
-    },
-    {
-      "id": 64,
-      "senderEmail": "sebastian@mindtree.com",
-      "receiverEmail": "sebastian@mindtree.com",
-      "cardId": 4,
-      "cardName": "Ebay Card",
-      "cardPoints": 123,
-      "cardShortDesc": "50% OFF",
-      "cardImage": "https://images.gyft.com/merchants/i-188-1346844971201-60_hd.png",
-      "cardIssueDate": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)",
-      "cardExpiryDate": "Sun May 26 2019 15:43:25 GMT+0530 (India Standard Time)",
-      "isRedeemed": false
-    },
-    {
-      "id": 83,
-      "senderEmail": "sebastian@mindtree.com",
-      "receiverEmail": "sebastian@mindtree.com",
-      "cardId": 4,
-      "cardName": "Ebay Card",
-      "cardPoints": 123,
-      "cardShortDesc": "50% OFF",
-      "cardImage": "https://images.gyft.com/merchants/i-188-1346844971201-60_hd.png",
-      "cardIssueDate": "Sun May 19 2019 15:43:25 GMT+0530 (India Standard Time)",
-      "cardExpiryDate": "Sun May 26 2019 15:43:25 GMT+0530 (India Standard Time)",
-      "isRedeemed": false
-    },
-    {
-      "id": 87,
-      "senderEmail": "sebastian@mindtree.com",
-      "receiverEmail": "sebastian@mindtree.com",
-      "cardId": 3,
-      "cardName": "Food Panda",
-      "cardPoints": "201",
-      "cardShortDesc": "10% OFF",
-      "cardImage": "https://images-platform.99static.com/6fYHYo_pmPCI9E9x7YGgHHVB7c8=/500x500/top/smart/99designs-contests-attachments/12/12934/attachment_12934835",
-      "cardIssueDate": "2019-05-25T08:13:13.581Z",
-      "cardExpiryDate": "2019-05-30T00:00:00.000Z",
-      "isRedeemed": false
-    },
-    {
-      "id": 73,
-      "senderEmail": "sebastian@mindtree.com",
-      "receiverEmail": "sebastian@mindtree.com",
-      "cardId": 3,
-      "cardName": "Food Panda",
-      "cardPoints": "201",
-      "cardShortDesc": "10% OFF",
-      "cardImage": "https://images-platform.99static.com/6fYHYo_pmPCI9E9x7YGgHHVB7c8=/500x500/top/smart/99designs-contests-attachments/12/12934/attachment_12934835",
-      "cardIssueDate": "2019-05-25T08:13:13.581Z",
-      "cardExpiryDate": "2019-05-30T00:00:00.000Z",
       "isRedeemed": false
     }
   ]
