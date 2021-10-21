@@ -7,7 +7,7 @@ describe("Gift Send Container ", () => {
     id: 1,
     first_name: "Sebastian",
     last_name: "Eschweiler",
-    email: "sebastian@mindtree.com",
+    email: "sebastian@gmail.com",
     balance_points: 5000,
   };
   const props = {
