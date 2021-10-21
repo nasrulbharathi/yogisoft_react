@@ -105,7 +105,7 @@ describe("Gift Card", () => {
         height: 0,
         flexShrink: 1,
         flexGrow: 1,
-        paddingTop: "56.25%",
+        paddingTop: "56.26%",
       },
       actions: {
         display: "flex",
